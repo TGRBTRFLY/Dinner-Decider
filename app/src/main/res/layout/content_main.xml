@@ -10,7 +10,7 @@
         tools:context=".MainActivity">
 
     <TextView
-            android:text="Chinese"
+            android:text="@string/chinese"
             android:textColor="@color/colorPrimaryDark"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
