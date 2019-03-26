@@ -3,4 +3,7 @@
     <string name="action_settings">Settings</string>
     <string name="logo">Logo</string>
     <string name="chinese">Chinese</string>
+    <string name="Decide">Decide!</string>
+    <string name="add_new_choice">Add new choice</string>
+    <string name="add_choice">Add Choice</string>
 </resources>
