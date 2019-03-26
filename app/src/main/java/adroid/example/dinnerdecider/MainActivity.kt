@@ -20,7 +20,13 @@ class MainActivity : AppCompatActivity() {
             val random = Random()
             val randomFood = random.nextInt(foodList.count())
             selectedFoodTxt.text = foodList[randomFood]
+        }
 
+        addChoiceBtn.setOnClickListener {
+            val newChoice = addChoiceTxtField.text.toString()
+            foodList.add(newChoice)
+            addChoiceTxtField.text.clear()
+            println(foodList)
         }
 
     }
